@@ -58,4 +58,13 @@ Make sure you have Python 3.7+ installed.
 ```bash
 pip install -r requirements.txt
 ```
-
+#### Usage
+- Download and place the dataset in the data/ folder as described above.
+- To train the model, run:
+ ```
+ python src/train.py
+```
+- To evaluate the model, run:
+```
+python src/evaluate.py
+```  
