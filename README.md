@@ -12,10 +12,10 @@ The project uses the [Breast Cancer Histopathological Database (BreakHis)](https
   **Option 1:** Manual download
   - Download the dataset from Kaggle: [BreaKHis Dataset](https://www.kaggle.com/ambarish/breakhis)
   - Extract it, and place the extracted folders under the `data/` directory, keeping the structure:
-             - data/
-             - ├── benign/
-             - ├── malignant/
-             - └── ...
+       -      data/
+              ├── benign/
+              ├── malignant/
+              └── ...
     
   **Option 2:** Download using Kaggle API (example in Colab)
   - You can use the Kaggle API in your notebook to download and prepare the dataset:
